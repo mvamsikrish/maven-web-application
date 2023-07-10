@@ -1,4 +1,5 @@
-node{
+node('wallmart-node')
+     {
     def mavenhome = tool name : "Maven3.8.3"
     stage('CheckOutCode')
     {
